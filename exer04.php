@@ -1,0 +1,7 @@
+<?php
+session_start();
+
+$_SESSION['usuario'] = $_POST['usuario'];
+
+header("Location: exer04_boasvindas.php");
+?>
